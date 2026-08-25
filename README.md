@@ -289,124 +289,6 @@ Then open the application using:
 
 ---
 
-## 🤖 Model Integration
-
-The trained model can be converted into TensorFlow Lite format:
-
-```text
-Trained Model
-      │
-      ▼
-TensorFlow / Keras
-      │
-      ▼
-TensorFlow Lite Conversion
-      │
-      ▼
-model.tflite
-      │
-      ▼
-PetDx Mobile Application
-```
-
-The application can then preprocess an image, run inference using the TensorFlow Lite model, and present the predicted class and associated information.
-
----
-
-## 📊 Model Evaluation
-
-Typical evaluation metrics used for image classification include:
-
-- Accuracy
-- Precision
-- Recall
-- F1-score
-- Confusion matrix
-- Validation loss
-- Training loss
-
-Example evaluation structure:
-
-```text
-                 Model Evaluation
-                        │
-        ┌───────────────┼───────────────┐
-        ▼               ▼               ▼
-    Accuracy        Precision        Recall
-        │               │               │
-        └───────────────┼───────────────┘
-                        ▼
-                     F1-Score
-```
-
-Replace the section above with the final experimental values from the dissertation/model evaluation.
-
----
-
-## 📸 Screenshots
-
-Add your final application screenshots here.
-
-```text
-docs/
-└── screenshots/
-    ├── login.png
-    ├── home.png
-    ├── scan.png
-    ├── prediction.png
-    ├── categories.png
-    └── profile.png
-```
-
-Example Markdown:
-
-```md
-<p align="center">
-  <img src="./docs/screenshots/home.png" width="250">
-  <img src="./docs/screenshots/scan.png" width="250">
-  <img src="./docs/screenshots/prediction.png" width="250">
-</p>
-```
-
----
-
-## 📁 Suggested Repository Structure
-
-```text
-PetDx/
-├── assets/
-├── components/
-├── app/
-│   ├── index.js
-│   ├── login/
-│   ├── signup/
-│   ├── home/
-│   ├── scan/
-│   └── profile/
-│
-├── models/
-│   └── model.tflite
-│
-├── services/
-│   ├── firebase/
-│   └── ml/
-│
-├── docs/
-│   └── screenshots/
-│
-├── dataset/
-│   └── README.md
-│
-├── app.json
-├── package.json
-├── README.md
-└── .gitignore
-```
-
-> Adjust this structure to match the actual repository before publishing.
-
----
-
 ## 🔬 Research Context
 
 PetDx was developed as part of an **MSc Computer Science project**, exploring the application of artificial intelligence and computer vision to a practical real-world problem.
@@ -456,18 +338,6 @@ PetDx has several important limitations:
 
 ---
 
-## 🔐 Privacy & Security
-
-The application should follow secure development practices:
-
-- Do not commit Firebase private keys or secrets.
-- Do not expose service-account credentials.
-- Store sensitive configuration securely.
-- Apply appropriate Firebase Authentication and Firestore security rules.
-- Minimize unnecessary collection of personal or pet data.
-
----
-
 ## 👨‍💻 Author
 
 ### Prasanka Madhushan
@@ -477,7 +347,7 @@ The application should follow secure development practices:
 Software Engineer | Full-Stack Developer | AI & Mobile Application Enthusiast
 
 <p align="center">
-  <a href="https://github.com/Prasanka-Madhushan">
+  <a href="https://github.com/Prasanka-0">
     <img src="https://img.shields.io/badge/GitHub-Prasanka--Madhushan-181717?style=for-the-badge&logo=github" alt="GitHub">
   </a>
 </p>
