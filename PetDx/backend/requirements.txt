@@ -1,0 +1,8 @@
+flask
+tensorflow
+numpy
+pillow
+flask-cors
+pymongo
+python-dotenv
+cloudinary

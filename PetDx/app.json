@@ -1,0 +1,45 @@
+{
+  "expo": {
+    "name": "pet_dx",
+    "slug": "pet_dx",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.yourcompany.petdx",
+      "config": {
+        "googleMapsApiKey": "YOUR_IOS_KEY"
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyDKo47VQpTFtD9jXhJH7V8p_7FrcXbJtTs"
+        }
+      }
+    },
+    "web": {
+      "bundler": "metro"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-sqlite",
+      "expo-mail-composer"
+    ],
+    "scheme": "petdx",
+    "experiments": {
+      "typedRoutes": true
+    }
+  }
+}
